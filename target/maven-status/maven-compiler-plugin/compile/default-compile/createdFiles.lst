@@ -1,0 +1,9 @@
+org\fdh\cube\model\Test.class
+org\fdh\cube\d\CenterBlock.class
+org\fdh\cube\d\math3D\Point3D.class
+org\fdh\cube\d\Square.class
+org\fdh\cube\model\SideArris.class
+org\fdh\cube\d\EdgeBlock.class
+org\fdh\cube\model\ThirdOrderFlat.class
+org\fdh\cube\model\Colors.class
+org\fdh\cube\model\Turns.class
