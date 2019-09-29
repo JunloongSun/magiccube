@@ -13,9 +13,10 @@ import com.alibaba.fastjson.JSONObject;
 
 public class Test{
     public static void main(String[] args) {
-        //KeyboardLitenerTest Test = new KeyboardLitenerTest();
-        CMDThread runnable=new CMDThread();
-        Thread thread=new Thread(runnable);
-        thread.start();
+//        //KeyboardLitenerTest Test = new KeyboardLitenerTest();
+//        CMDThread runnable=new CMDThread();
+//        Thread thread=new Thread(runnable);
+//        thread.start();
+        
     }
 }
