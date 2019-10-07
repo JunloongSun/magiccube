@@ -10,6 +10,6 @@ public class Test{
 //        Thread thread=new Thread(runnable);
 //        thread.start();
         ClassLoader.getSystemClassLoader().loadClass("org.fdh.cube.util.Environment");
-        System.out.println(Environment.get("user.dir"));
+        System.out.println(Environment.get("workspace"));
     }
 }
