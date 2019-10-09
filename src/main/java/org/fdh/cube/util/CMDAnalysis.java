@@ -24,11 +24,11 @@ public class CMDAnalysis {
         int count=0;//options计数
         for (int i = 0; i < value.length(); i++) {
             if(value.charAt(i)!=' '&&(value.charAt(i+1)==' '||value.charAt(i+1)=='\n')) {//遇到空格或结束符分隔
-                options.get(count).=value.substring(0,i+1);
+                //options.get(count).=value.substring(0,i+1);
                 count++;
             }
         }
-        System.out.println(cmd);
+        //System.out.println(cmd);
         for (int i = 0; i < options.size(); i++) {
             System.out.println(options.get(i));
         }
