@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <lunece.version>4.10.2</lunece.version>
   </properties>
 
   <dependencies>
@@ -21,10 +22,34 @@
       <version>3.8.1</version>
     </dependency>
     <!-- 阿里巴巴Json -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
-        </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.31</version>
+    </dependency>
+    <!-- lucene核心库 -->
+    <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-core</artifactId>
+        <version>${lunece.version}</version>
+    </dependency>
+    <!-- Lucene的查询解析器 -->
+    <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-queryparser</artifactId>
+        <version>${lunece.version}</version>
+    </dependency>
+    <!-- lucene的默认分词器库 -->
+    <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-analyzers-common</artifactId>
+        <version>${lunece.version}</version>
+    </dependency>
+    <!-- lucene的高亮显示 -->
+    <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-highlighter</artifactId>
+        <version>${lunece.version}</version>
+    </dependency>
   </dependencies>
 </project>
