@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <lunece.version>4.10.2</lunece.version>
+    <lunece.version>8.2.0</lunece.version>
   </properties>
 
   <dependencies>
